@@ -1,0 +1,19 @@
+[package]
+name = "dbcli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+mysql = "25"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+colored = "2"
+hex = "0.4"
+rustyline = "14"
+rumqttc = "0.24"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "macros", "sync", "time"] }
+uuid = { version = "1", features = ["v4"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+urlencoding = "2"
