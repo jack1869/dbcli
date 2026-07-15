@@ -248,6 +248,31 @@ cargo run -- sqlite -d mydb.db
 | `colored` | Terminal colors |
 | `serde_json` | JSON serialization |
 
+## Registration & Resources
+
+### AI Service
+
+| Service | URL | Description |
+|---------|-----|-------------|
+| **Agnes AI** | https://platform.agnes-ai.com | AI API platform, register to get free API key |
+| Agnes AI Docs | https://wiki.agnes-ai.com/en/docs/quickstart | Developer documentation |
+| Agnes AI GitHub | https://github.com/AgnesAI-Labs/Agnes-AI | Official GitHub repository |
+
+### Web Search
+
+| Service | URL | Description |
+|---------|-----|-------------|
+| **Tavily** | https://tavily.com | AI-powered web search API |
+| Tavily API Key | https://app.tavily.com/home | Register to get free API key (1000 calls/month) |
+
+### MQTT Broker
+
+| Service | URL | Description |
+|---------|-----|-------------|
+| **EMQX Cloud** | https://www.emqx.com/en/cloud | Free Serverless MQTT broker (1M session min/month) |
+| EMQX Cloud Sign Up | https://www.emqx.com/en/try?tab=cloud | Start free trial, no credit card required |
+| MQTT Official | https://mqtt.org | MQTT protocol specification and resources |
+
 ## License
 
 MIT
